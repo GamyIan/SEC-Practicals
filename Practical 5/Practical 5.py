@@ -1,3 +1,4 @@
+# Thanks to Khushi!
 #5a
 print("Q5A:")
 for i in range(1,6):
