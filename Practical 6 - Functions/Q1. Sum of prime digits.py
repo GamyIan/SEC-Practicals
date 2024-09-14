@@ -1,9 +1,11 @@
 # Q1. Write a python script to print sum of prime digits in a given number
 
 def isPrime(n):
-    for i in range(2,n//2+1):
-        if n%i==0:
-            return 0
+    n=abs(n)
+    if n==1: return 0
+    elif n>1:
+        for i in range(2,n//2+1):
+            if n%i==0: return 0
     return n
 
 
